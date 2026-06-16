@@ -80,7 +80,6 @@ Modular script driven by a command-line argument (`args[1]`) that selects the an
 | `compare_prevalences` | Sex-biased disease prevalence in Catalonia and Denmark; Fisher tests, enrichment by ICD-10 category, UpSet plots |
 | `compare_age_of_diagnoses` | Sex differences in age at diagnosis; Welch t-tests, WLS regression by category, comparison with Danish data |
 | `calculate_correlations_between_diseaseprevalence_and_numberofcomorbidities` | Correlation between disease prevalence and number of comorbidity partners across time windows |
-| `compare_time_windows` | Incremental and continuous window analyses: UpSet overlaps, edge gain/loss enrichment, persistence enrichment, trajectory classification |
 | `biological_clock` | Two-dimensional biological clock of multimorbidity: cumulative RR slopes, conditional risk persistence, 4-quadrant classification, sex-stratified analysis, paradigmatic examples, directionality within the clock |
 | `BiologicalClock_level2` | Biological clock at ICD-10 subcategory level using a WHO 2016 subcategory mapping |
 | `Validate_Biological_Clock` | Robustness analyses: pair-level bootstrap (1,000 replicates), leave-one-index-disease-out sensitivity, k-means quadrant comparison |
