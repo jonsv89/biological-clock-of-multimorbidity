@@ -115,7 +115,3 @@ The pipeline expects anonymised EHR data from SIDIAP (not publicly available). R
 - `Epidemiology/41467_2019_8475_MOESM5_ESM.txt` — Danish age-of-diagnosis data (Westergaard et al. 2019, Supplementary Data 5)
 
 ---
-
-## Citation
-
-> Sánchez-Valle J et al. *Follow-up duration determines multimorbidity detection in primary care: a population-scale analysis of 5.8 million individuals.* (2025)
