@@ -86,6 +86,7 @@ Modular script driven by a command-line argument (`args[1]`) that selects the an
 | `Sex_window_differences` | Sex-specific network overlap and enrichment by disease category pair; directional reversals between women and men |
 | `Temporal_robustness_of_comorbidities` | Nine-window detection taxonomy (omnipresent, persistent, late-emerging, transient, conditional-only, mixed); stacked bar and heatmap figures |
 | `Temporal_robustness_of_comorbidities_by_pairs` | Same taxonomy but at the catA × catB pair level |
+| `compare_westergaard` | Compares the Catalonia network (window 0–5) against the Westergaard et al. 2019 Danish hospital network. Computes network overlap (Jaccard, hypergeometric test), Spearman concordance of RR for shared pairs, enrichment of catA×catB pairs among shared vs population-specific associations, and directional concordance/reversals between the two datasets. Outputs UpSet plots, concordance scatter plots, and enrichment heatmaps |
 
 ```bash
 Rscript 05_manuscript_analyses.R biological_clock
