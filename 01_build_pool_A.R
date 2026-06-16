@@ -1,5 +1,5 @@
 #### This code has been developed by Jon Sanchez-Valle at BSC ####
-# Usage: Rscript 01_build_pool_A_v2.R --disease_a E11 --data_dir ./CaseControlStudy/ --out_dir ./pools/
+# Usage: Rscript 01_build_pool_A.R --disease_a E11 --data_dir ./CaseControlStudy/ --out_dir ./pools/
 
 ## Load libraries ##
 library(data.table)
